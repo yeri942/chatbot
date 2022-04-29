@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: rgb(130, 178, 233);
+}
+main{
+    border-radius: 100px;
+    border: 3px solid white;
+    width: 300px;
+    height: 150px;
+    padding: 40px;
+    margin: 100px;
+}
+input{
+    font-family: FontAwesome;
+    font-size: 30px;
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+.screen{
+    height: 40px;
+    font-size: 30px;
+}

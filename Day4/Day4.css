@@ -1,0 +1,31 @@
+main{
+    padding: 20px;
+    transform: translateY(200px);
+    text-align: center;
+    float: right;
+    border-radius: 10px;
+    background-color: rgb(23, 47, 94);
+}
+button{
+    margin: 5px;
+    font-family: 'Jua', sans-serif;
+    background-color: rgb(94, 161, 206);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(37, 114, 165);
+}
+button.re{
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button.plus, button.minus{
+    width: 87px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+}

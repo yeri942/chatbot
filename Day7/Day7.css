@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(127, 225, 255);
+ }
+.timeWrab{
+    width: 240px;
+    background-color: black;
+    border-radius: 90px 40px 90px 40px;
+}
+.timeWrab #time{
+    margin: 10px;
+    font-size: 30pt;
+    color: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+}
+.btnWrab{
+    margin: 20px auto;
+    text-align: center;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'dot';
+  src: url('/yangfont04.ttf') format('truetype');
+}
+body{
+    background-image: url(/background.jpeg);
+    background-size: cover;
+  }
+  .wrap {
+    text-align: center;
+  }
+  .back{
+    position:absolute;
+    z-index: -1;
+    width: 80%;
+    height: 700px;
+    top: 28px;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  #balloon {  
+    position:relative; 
+    margin: 50px;
+    margin-left: 30%;
+    margin-bottom: 0px;
+    width: 40%; 
+    height: 325px;
+    background:rgb(241, 206, 87); 
+    border-radius: 20px;
+    font-family: 'dot';
+    text-align: center;
+  }
+  #balloon h2{
+    color: rgb(78, 42, 0);
+    padding-top: 145px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  #balloon:after { 
+    border-top:0px solid transparent; 
+    border-left: 20px solid transparent; 
+    border-right: 20px solid transparent; 
+    border-bottom: 15px solid rgb(241, 206, 87); 
+    transform:rotate(180deg);
+    content:""; 
+    position:absolute;
+    top:100%;
+    left:44%;  
+  }
+  #zzang{
+    height: 210px;
+  }
+  input#userText{
+    font-size: 20px;
+    font-weight: 600;
+    width: 38%;
+    height: 40px;
+    display: block;
+    font-family: 'dot';
+    padding-left: 20px;
+    margin-left: 30%;
+    border-radius: 12px;
+    background-color: rgba(241, 205, 87, 0.76); 
+    border: 3px solid rgba(87, 53, 8, 0.329);
+  
+  }
+  
+  input#submit{
+    margin: 12px;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'dot';
+    border-radius: 15px;
+    background-color: rgb(231, 166, 45); 
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+  input#submit:hover{
+    background-color: rgb(216, 147, 19);
+  }
